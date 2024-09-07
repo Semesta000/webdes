@@ -1,0 +1,23 @@
+[data-aos] {
+    pointer-events: none;
+}
+.aos-animate {
+    pointer-events: auto;
+}
+.aos-init[data-aos][data-aos].aos-animate {
+    transform: unset;
+}
+
+.hide-scroll-bar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.hide-scroll-bar::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .modal-content {
+        width: 80%;
+    }
+}
